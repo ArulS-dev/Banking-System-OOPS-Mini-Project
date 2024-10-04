@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.UserLogin">
+   <children>
+      <Rectangle fill="DODGERBLUE" height="400.0" stroke="#e8e2e2" strokeType="INSIDE" strokeWidth="0.0" width="230.0" />
+      <Text fill="#f8f8f8" layoutX="46.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAZE">
+         <font>
+            <Font name="System Bold" size="49.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="55.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BANK">
+         <font>
+            <Font name="System Bold" size="42.0" />
+         </font>
+      </Text>
+      <Text fill="DODGERBLUE" layoutX="485.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGIN ">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Text>
+      <Text fill="DODGERBLUE" layoutX="246.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UserName">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="DODGERBLUE" layoutX="246.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nameField" layoutX="246.0" layoutY="175.0" prefHeight="39.0" prefWidth="300.0" promptText="Enter Your Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="passField" layoutX="246.0" layoutY="264.0" prefHeight="39.0" prefWidth="300.0" promptText="Enter Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="loginBtn" layoutX="349.0" layoutY="327.0" mnemonicParsing="false" onAction="#loginBtnL" style="-fx-background-color: #1e90ff;" text="LOGIN" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="355.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../pictures/user.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="39.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OF LOS SONTOS">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
